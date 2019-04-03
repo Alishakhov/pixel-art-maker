@@ -1,0 +1,72 @@
+body {
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    color: #888;
+}
+
+h1 {
+    /*font-family: Monoton;this has a very special design*/
+    font-size: 70px;
+    margin: 0.2em;
+    color: #0aa;
+    word-spacing: 0.5em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}/*bring whatever h2 and plus the rest under h2 has a margin from the top of the page 0.5em*/
+
+.style {
+  width: 70px;
+  height: 3vh;
+
+}
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+.btn {
+  color: #fff;
+  padding: 3px 10px;
+  border-radius: 4px 10px 4px 10px;
+  background-color: #0aa;
+}
+
+.btn:hover {
+    background-color: #e00;
+}
+input[type=number] {
+    width: 6em;
+    height: 2vh;
+    border-radius: 4px 10px 4px 10px;
+}/*control the width of the input box*/
+
+.fontSize {
+    font-size: 34px;
+    background: #f66;
+    color: #f3e6e6;
+}
+
+.fontSize:hover {
+    background-color: #8f9;
+}
