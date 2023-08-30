@@ -70,3 +70,7 @@ input[type=number] {
 .fontSize:hover {
     background-color: #8f9;
 }
+
+.main {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
