@@ -65,11 +65,9 @@ input[type=number] {
     font-size: 34px;
     background: #f66;
     color: #f3e6e6;
+    padding: .5em;
 }
 
-.fontSize:hover {
-    background-color: #8f9;
-}
 
 .main {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
