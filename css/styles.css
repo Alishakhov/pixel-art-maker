@@ -21,11 +21,8 @@ h2:first-of-type {
     margin-bottom: 0.5em;
 }/*bring whatever h2 and plus the rest under h2 has a margin from the top of the page 0.5em*/
 
-.style {
-  width: 70px;
-  height: 3vh;
 
-}
+
 table,
 tr,
 td {
@@ -81,8 +78,27 @@ input[type=number] {
     padding: 9px;
     border: 1px solid #ddd;
     border-radius: 7px 7px 7px 7px;
-
 }
+
+section.margin-top {
+    margin-top: 30px;
+}
+
+.color-picker-style {
+
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 7px 7px 7px 7px;
+}
+
+.style {
+    width: 200px;
+    height: 3vh;
+    border: none;
+
+  }
+
+
 .fontSize {
     font-size: 34px;
     background: #f66;
