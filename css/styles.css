@@ -52,8 +52,9 @@ td {
   background-color: #0aa;
   font-weight: bold;
   border: none;
+  /* box-shadow: 1px 1px 3px 1px #000;
 
- 
+  */
 }
 
 .btn:hover {
@@ -63,12 +64,25 @@ td {
     
 }
 
+/*control the width of the input box*/
 input[type=number] {
-    width: 6em;
+    width: 5em;
     height: 2vh;
-    border-radius: 4px 10px 4px 10px;
-}/*control the width of the input box*/
+    padding: 9px 5px;
+    /* border: 1px solid #aaa; */
+    border: none;
+    
+}
+ input:focus{
+    outline: none;
+} 
 
+.customer-style { 
+    padding: 9px;
+    border: 1px solid #ddd;
+    border-radius: 7px 7px 7px 7px;
+
+}
 .fontSize {
     font-size: 34px;
     background: #f66;
