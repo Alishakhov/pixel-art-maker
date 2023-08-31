@@ -90,6 +90,14 @@ input[type=number] {
     padding: .5em;
 }
 
+form#sizePicker{
+    margin: 0 auto;
+    width:50%;
+    max-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
 .main {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
