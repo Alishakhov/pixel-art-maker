@@ -14,17 +14,6 @@ h1 {
     margin-bottom: 50px;
 }
 
-h2 {
-    margin: 1em 0 0.25em;
-}
-
-h2:first-of-type {
-    margin-top: 1.5em;
-    margin-bottom: 0.5em;
-}/*bring whatever h2 and plus the rest under h2 has a margin from the top of the page 0.5em*/
-
-
-
 table,
 tr,
 td {
@@ -51,16 +40,12 @@ td {
   background-color: #0aa;
   font-weight: bold;
   border: none;
-  /* box-shadow: 1px 1px 3px 1px #000;
-
-  */
 }
 
 .btn:hover {
     background-color: #fff;
     color: #0aa;
     border: 1px solid #0aa;
-    
 }
 
 /*control the width of the input box*/
@@ -68,11 +53,10 @@ input[type=number] {
     width: 5em;
     height: 2vh;
     padding: 9px 5px;
-    /* border: 1px solid #aaa; */
-    border: none;
-    
+    border: none;  
 }
- input:focus{
+
+input:focus{
     outline: none;
 } 
 
@@ -87,7 +71,6 @@ section.margin-top {
 }
 
 .color-picker-style {
-
     padding: 15px;
     border: 1px solid #ddd;
     border-radius: 7px 7px 7px 7px;
@@ -97,9 +80,7 @@ section.margin-top {
     width: 200px;
     height: 3vh;
     border: none;
-
   }
-
 
 .canvas-style {
     font-size: 3rem;
@@ -107,7 +88,6 @@ section.margin-top {
     font-family: 'Satisfy', cursive;
     text-shadow: 3px 3px 2px #888;
     text-decoration:underline;
-    
 }
 
 form#sizePicker{
