@@ -101,11 +101,13 @@ section.margin-top {
   }
 
 
-.fontSize {
-    font-size: 34px;
-    background: #f66;
-    color: #f3e6e6;
-    padding: .5em;
+.canvas-style {
+    font-size: 3rem;
+    color:rgb(225, 197, 37);
+    font-family: 'Satisfy', cursive;
+    text-shadow: 3px 3px 2px #888;
+    text-decoration:underline;
+    
 }
 
 form#sizePicker{
